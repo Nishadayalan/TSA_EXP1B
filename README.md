@@ -52,7 +52,6 @@ plt.ylabel('Fatalities')
 
 ```
 ```
-
 plt.subplot(6, 1, 2)
 plt.plot(data['fatalities_diff'], label='Regular Difference', color='orange')
 plt.legend(loc='upper left', bbox_to_anchor=(1.0, 1.0))   # moved legend outside
@@ -77,6 +76,14 @@ plt.xlabel('Year')
 plt.ylabel('Log(Fatalities)')
 ```
 ```
+plt.subplot(6, 1, 5)
+plt.plot(data['fatalities_log_diff'], label='Log Transformation + Regular Differencing', color='purple')
+plt.legend(loc='upper left', bbox_to_anchor=(1.0, 1.0))
+plt.title('Log Transformation and Regular Differencing')
+plt.xlabel('Year')
+plt.ylabel('RDiff(Log(Fatalities))')
+```
+```
 plt.subplot(6, 1, 6)
 plt.plot(data['fatalities_log_seasonal_diff'], label='Log + Regular + Seasonal Differencing', color='brown')
 plt.legend(loc='upper left', bbox_to_anchor=(1.0, 1.0))
@@ -88,27 +95,37 @@ plt.ylabel('SDiff(RDiff(Log(Fatalities)))')
 
 
 ### OUTPUT:
+ORIGINAL:
+
 <img width="955" height="228" alt="image" src="https://github.com/user-attachments/assets/74d653d4-8f78-434e-8d2f-9a517e3fded8" />
 
 
 
 REGULAR DIFFERENCING:
+
 <img width="1111" height="226" alt="image" src="https://github.com/user-attachments/assets/382fd7b2-3a3e-4635-a873-51f962c55cce" />
 
 
 
 
 SEASONAL ADJUSTMENT:
+
 <img width="1110" height="232" alt="image" src="https://github.com/user-attachments/assets/d6098396-3030-4cdf-b35d-c3bca11455f1" />
 
 
-
 LOG TRANSFORMATION:
+
 <img width="1055" height="218" alt="image" src="https://github.com/user-attachments/assets/9c0e1f7f-5fc5-4a94-a2dd-67d392fbd38e" />
+
+
+Log Transformation and Regular Differencing:
+
+<img width="1303" height="236" alt="image" src="https://github.com/user-attachments/assets/b6bb1a71-37cc-4c19-be40-0b44bb94de72" />
 
 
 
 Log Transformation + Regular Differencing + Seasonal Differencing:
+
 <img width="1317" height="240" alt="image" src="https://github.com/user-attachments/assets/f376fea4-6ec2-4934-96c0-51b95fccab7a" />
 
 
