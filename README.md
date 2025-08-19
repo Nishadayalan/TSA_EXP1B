@@ -113,9 +113,13 @@ SEASONAL ADJUSTMENT:
 <img width="1110" height="232" alt="image" src="https://github.com/user-attachments/assets/d6098396-3030-4cdf-b35d-c3bca11455f1" />
 
 
+
+
 LOG TRANSFORMATION:
 
 <img width="1055" height="218" alt="image" src="https://github.com/user-attachments/assets/9c0e1f7f-5fc5-4a94-a2dd-67d392fbd38e" />
+
+
 
 
 Log Transformation and Regular Differencing:
@@ -124,9 +128,12 @@ Log Transformation and Regular Differencing:
 
 
 
+
 Log Transformation + Regular Differencing + Seasonal Differencing:
 
 <img width="1317" height="240" alt="image" src="https://github.com/user-attachments/assets/f376fea4-6ec2-4934-96c0-51b95fccab7a" />
+
+
 
 
 ### RESULT:
